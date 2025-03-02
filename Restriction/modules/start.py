@@ -34,7 +34,7 @@ async def start(_, message):
         ])
 
         await message.reply_photo(
-            photo="https://i.imghippo.com/files/TvnJ4931gM.jpg",
+            photo="https://i.ibb.co/kVvHdd0L/871de2574257.jpg",
             caption=script.START_TXT.format(message.from_user.first_name),
             reply_markup=keyboard
         )

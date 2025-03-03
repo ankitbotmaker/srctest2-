@@ -58,4 +58,4 @@ async def button(client, callback_query):
         await callback_query.message.delete()  # Deletes the message when closed
 
 # ✅ Run the Bot
-app.run()
+asyncio.run()
